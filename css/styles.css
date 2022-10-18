@@ -4,11 +4,11 @@ body {
   text-align: center;
   font-family: 'Merriweather', serif;
 }
-
-h1 {
-  margin: 50px auto 0 auto;
+.headname{
+  margin: 0 auto 0 auto;
   padding: 10px;
   color: #66BFBF;
+  font-weight: 800;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
 }
@@ -38,10 +38,16 @@ hr{
   border-width: 8px;
   width: 10%;
   border-top: 1px;
-  border-color: #D8D9CF;
+  border-color: #B2B2B2;
+  background-color:inherit;
   margin: 50px auto 50px auto;
 }
-
+.navhover{
+  color: #11999E;
+}
+.navhover:hover{
+  color: #EAF6F6;
+}
 .top-container {
   background-color: #E4F9F5;
   position: relative;
@@ -56,7 +62,7 @@ hr{
 }
 
 .mounten {
-  padding-top: 20px
+  padding-top: 120px
 }
 
 .top-cloud {
